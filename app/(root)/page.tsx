@@ -27,7 +27,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="z-10 w-full flex flex-col items-center justify-center pt-28 md:pt-16">
+      <div className="z-10 w-full flex flex-col items-center justify-center md:pt-16">
         <p className="text-[20px] md:text-5xl  text-foreground space-y-6  flex flex-col text-center w-3/4 md:w-1/2">
           <span> Empowering Health , One Prediction </span>
           <span> at a Time. Discover Your Diabetic </span>
