@@ -11,7 +11,7 @@ const Navbar = () => {
   const isPredict = pathname === "/predict" || pathname === "/about";
   const isHome = pathname === "/";
   return (
-    <nav className=" z-10 fixed bg-black opacity-85  w-full  px-4 p-2  md:px-10 flex justify-between shadow-b shadow-sm ">
+    <nav className=" z-[100] fixed bg-black opacity-85  w-full  px-4 p-2  md:px-10 flex justify-between shadow-b shadow-sm ">
       <Link href="/" className="flex space-x-2 items-center justify-center">
         <Image src="/drugs.png" alt="logo" width={28} height={28} />
         <span className="text-[20px]  text-white">Diabacto</span>

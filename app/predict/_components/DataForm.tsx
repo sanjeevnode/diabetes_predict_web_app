@@ -59,7 +59,7 @@ const DataForm = () => {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className=" z-10 w-full md:mt-6 space-y-4"
+        className=" z-10 w-full md:mt-6 space-y-4 overflow-y-auto mb-2"
       >
         <div className="flex flex-col md:flex-row md:space-x-10">
           <div className="space-y-2 md:w-1/2">
